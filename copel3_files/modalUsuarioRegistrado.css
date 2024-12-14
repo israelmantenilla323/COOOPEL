@@ -1,0 +1,126 @@
+#ModalMain{
+	margin:0 auto;
+	position: relative;
+	width:1px;
+	height:1px;
+}
+.modalABE {
+    width: 552px;
+    height: 280px;
+    position: relative;
+    margin: 0 auto;
+    padding: 5px 20px 13px 20px;
+    border-radius: 2px;
+    padding-bottom: 10px;
+    box-shadow: 0px 1px 1px #c9c9c9;
+    background: #FFFFFF;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin-top: 33px;
+    left: -3%;
+}
+#encabezadoModal {
+    width: 558px;
+    height: 20px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 10%;
+    padding: 5px 20px 13px 20px;
+    background-color:rgba(0, 138, 200, 0);
+    border-radius: 2px;
+}
+#encabezado{
+	color:#FFF9F4 100%;
+}
+
+/************************************/
+/* The Modal (background) */
+.hidemodal {
+    display: none;
+    position: fixed;
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+.showmodal{
+	position:fixed;/*test REMOVER*/
+	display:block;
+	z-index: 2; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4);
+}
+
+
+
+/* The Close Button */
+.close {
+	background-image: url(../../images/ABE_CuentasFrecuentes/icono_cerrar_modal.png);
+	background-repeat:no-repeat;
+	background-position:top right;	
+	width:30px;
+	background-size:30px 30px;	
+	border-radius:50%;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    top:-18px;
+    right:-33px;
+    position:relative;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.modal-title {
+    text-align: center;
+    font-family: Lato-Black;
+    font-size: 36px;
+    color: #225AA7;
+    padding: 25px 20px 16px;
+    margin: 0;
+    border-bottom: 1px solid #eaeaea;
+    margin-bottom: 14px;
+}
+
+.imgAvisoI{
+	position: absolute;
+    left: 21%;
+    top: 9%;
+}
+
+.pt100{
+	padding-top: 100px;
+}
+
+#img-aviso2 {
+    position: absolute;
+    width: 51px;
+    height: 51px;
+    top: 47px;
+    left: 159px;
+}
+
+#text-atencion2 {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    font-family: Lato-Black;
+    font-size: 28px;
+    color: #225AA7;
+    width: 83%;
+}
